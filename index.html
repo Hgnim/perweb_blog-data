@@ -10,6 +10,8 @@
     <br>
     <input id="getJsonBtn" type="button" value="Get Json" onclick="getJsonBtn_click()" />
     <br>
+    <input id="getTextBtn" type="button" value="Get Text" onclick="getTextBtn_click()"/>
+    <br>
     <div id="otpt"></div>
 
     <script>
@@ -18,6 +20,9 @@
         const otpt = document.getElementById('otpt');
         async function getJsonBtn_click() {
             otpt.innerText = JSON.stringify(await (await fetch(uriIpt.value)).json());
+        }
+        async function getTextBtn_click() {
+            otpt.innerText = (await (await fetch(uriIpt.value)).text());
         }
     </script>
 </body>
