@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <input id="uriIpt" type="text" />
+    <br>
+    <input id="getJsonBtn" type="button" value="Get Json" onclick="getJsonBtn_click()" />
+    <br>
+    <div id="otpt"></div>
+
+    <script>
+        const uriIpt = document.getElementById('uriIpt');
+        const getJsonBtn = document.getElementById('getJsonBtn');
+        const otpt = document.getElementById('otpt');
+        async function getJsonBtn_click() {
+            otpt.innerText = JSON.stringify(await (await fetch(uriIpt.value)).json());
+        }
+    </script>
+</body>
+
+</html>
