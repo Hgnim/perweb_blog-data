@@ -7,5 +7,6 @@
         "test",
         "test-a"
     ],
-    "tag": ["hide"]
+    "tag": ["hide"],
+    "creatorContriLevel":0
 }
