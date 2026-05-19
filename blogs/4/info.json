@@ -1,0 +1,12 @@
+{
+    "id": 4,
+    "creationTime": "2026-05-20T00:34:00+08:00",
+    "lastModificationTime": "2026-05-20T00:34:00+08:00",
+    "title": "求生之路2核显亮度过暗修复",
+    "summary": "求生之路2中修复集成显卡进行游戏时画面太暗的方法",
+    "type": [
+        "ComputerGame",
+        "Left4Dead2"
+    ],
+    "creatorContriLevel": 2
+}

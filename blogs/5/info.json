@@ -1,0 +1,12 @@
+{
+    "id": 5,
+    "creationTime": "2026-05-20T00:51:04+08:00",
+    "lastModificationTime": "2026-05-20T00:51:04+08:00",
+    "title": "求生之路2单人游玩对抗模式",
+    "summary": "求生之路2中在单人模式下游玩可扮演被感染者的模式",
+    "type": [
+        "ComputerGame",
+        "Left4Dead2"
+    ],
+    "creatorContriLevel": 0
+}
