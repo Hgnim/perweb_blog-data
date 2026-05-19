@@ -1,6 +1,7 @@
 {
     "id":0,
-    "time":"2026-05-13T00:11:10+08:00",
+    "creationTime":"2026-05-13T00:11:10+08:00",
+    "lastModificationTime":"2026-05-13T00:11:10+08:00",
     "title":"Test",
     "summary":"This is a test blog",
     "type":["test","test-a"],
