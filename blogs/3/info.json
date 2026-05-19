@@ -1,5 +1,5 @@
 {
-    "id":1,
+    "id":3,
     "creationTime":"2026-05-19T23:03:24+08:00",
     "lastModificationTime": "2026-05-19T23:03:24+08:00",
     "title":"测试四",
@@ -8,6 +8,5 @@
         "test",
         "test-b"
     ],
-    "tag": ["hide"],
     "creatorContriLevel":0
 }
